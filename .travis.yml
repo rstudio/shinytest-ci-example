@@ -6,7 +6,7 @@ r: release
 
 # Use newer version of PhantomJS than is installed by default on basic R image.
 cache:
-  packages:
+  packages: true
   directories:
     - "travis_phantomjs"
 before_install:
