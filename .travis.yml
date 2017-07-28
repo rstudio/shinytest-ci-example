@@ -21,10 +21,5 @@ before_install:
   - "if [ $(phantomjs --version) != $PHANTOMJS_VERSION ]; then hash -r; fi"
   - "phantomjs --version"
 
-
-install:
-  - Rscript -e 'install.packages(c("remotes", "testthat"))'
-  - Rscript -e 'remotes::install_github(c("rstudio/shiny", "rstudio/shinytest"))'
-
 script:
   - Rscript run_tests.R
