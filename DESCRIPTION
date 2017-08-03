@@ -1,6 +1,0 @@
-Imports:
-  shiny,
-  shinytest
-Remotes:
-  rstudio/shiny,
-  rstudio/shinytest

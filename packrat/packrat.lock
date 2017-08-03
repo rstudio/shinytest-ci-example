@@ -1,0 +1,207 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.8.1
+RVersion: 3.4.0
+Repos: CRAN=https://cloud.r-project.org
+
+Package: R6
+Source: CRAN
+Version: 2.2.2
+Hash: b2366cd9d2f3851a5704b4e192b985c2
+
+Package: Rcpp
+Source: CRAN
+Version: 0.12.11
+Hash: 2ee22f3b5e75dec80b1d8eca61cd96d8
+
+Package: assertthat
+Source: CRAN
+Version: 0.2.0
+Hash: e8805df54c65ac96d50235c44a82615c
+
+Package: base64enc
+Source: CRAN
+Version: 0.1-3
+Hash: c590d29e555926af053055e23ee79efb
+
+Package: crayon
+Source: CRAN
+Version: 1.3.2
+Hash: 576a9d297a567d6a5ebd164ca5221590
+
+Package: curl
+Source: CRAN
+Version: 2.8.1
+Hash: 5a3f385f21add1e944b93b3cd9ce8b48
+
+Package: debugme
+Source: github
+Version: 1.0.2
+Hash: 70ee2cb4dad7adaa0fbea7c85f437184
+Requires: crayon
+GithubRepo: debugme
+GithubUsername: gaborcsardi
+GithubRef: master
+GithubSha1: e65ce04de7505f4244095db1b9944a3fa2d38532
+
+Package: digest
+Source: CRAN
+Version: 0.6.12
+Hash: e53fb8c58673df868183697e39a6a4d6
+
+Package: htmltools
+Source: CRAN
+Version: 0.3.6
+Hash: eeba9fb36d4cb6cc66f060187102be41
+Requires: Rcpp, digest
+
+Package: htmlwidgets
+Source: github
+Version: 0.9
+Hash: 68ef9fe30c404ff2d588c9d83c5b668b
+Requires: htmltools, jsonlite, yaml
+GithubRepo: htmlwidgets
+GithubUsername: ramnathv
+GithubRef: master
+GithubSha1: 6f4101d0509f6c3cf13ad151bddf7298ee722bdd
+
+Package: httpuv
+Source: CRAN
+Version: 1.3.5
+Hash: e2d5ec877601df43efe66e9096d0fc93
+Requires: Rcpp
+
+Package: httr
+Source: CRAN
+Version: 1.2.1
+Hash: 7de1f8f760441881804af7c1ff324340
+Requires: R6, curl, jsonlite, mime, openssl
+
+Package: jsonlite
+Source: CRAN
+Version: 1.5
+Hash: 9c51936d8dd00b2f1d4fe9d10499694c
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
+
+Package: mime
+Source: CRAN
+Version: 0.5
+Hash: 463550cf44fb6f0a2359368f42eebe62
+
+Package: openssl
+Source: CRAN
+Version: 0.9.6
+Hash: 5f4711e142a44655dfea4d64fcf2f641
+
+Package: packrat
+Source: CRAN
+Version: 0.4.8-1
+Hash: 6ad605ba7b4b476d84be6632393f5765
+
+Package: parsedate
+Source: CRAN
+Version: 1.1.3
+Hash: 85902ad85833c2e722af340d486ef256
+
+Package: pingr
+Source: CRAN
+Version: 1.1.2
+Hash: c06422794727df56ede9a55be3fc91da
+
+Package: png
+Source: CRAN
+Version: 0.1-7
+Hash: 421d7d6e0fb4bd885ecbd909b6456b8b
+
+Package: praise
+Source: CRAN
+Version: 1.0.0
+Hash: 77da8f1df873a4b91e5c4a68fe2fb1b6
+
+Package: processx
+Source: github
+Version: 2.0.1.9001
+Hash: 6d10a8c12f381b03e07f8186079fcc33
+Requires: R6, assertthat, crayon, debugme
+GithubRepo: processx
+GithubUsername: r-lib
+GithubRef: master
+GithubSha1: 56099bc9824f3a36342e279029fd0791b6ac9cc3
+
+Package: rematch
+Source: CRAN
+Version: 1.0.1
+Hash: ad4faf59e7611117ff165817074c50c7
+
+Package: shiny
+Source: github
+Version: 1.0.3.9002
+Hash: 53ffa8a548c3c43a3cead240b2622217
+Requires: R6, digest, htmltools, httpuv, jsonlite, mime, sourcetools,
+    xtable
+GithubRepo: shiny
+GithubUsername: rstudio
+GithubRef: master
+GithubSha1: ba5c5ef4fbaea412fac6bfd055df9d750b5f8077
+
+Package: shinytest
+Source: github
+Version: 1.1.1
+Hash: df2aa02abcdb51c33da524f72f97061f
+Requires: R6, assertthat, crayon, debugme, digest, htmlwidgets, httr,
+    jsonlite, parsedate, pingr, processx, rematch, shiny, testthat,
+    webdriver, withr
+GithubRepo: shinytest
+GithubUsername: rstudio
+GithubRef: master
+GithubSha1: 2a7ef2f1dfa254834736d2c9a7e6c571254669f6
+
+Package: showimage
+Source: github
+Version: 1.0.0
+Hash: b523168d8701c38ecdad1294ff6886b3
+Requires: png
+GithubRepo: showimage
+GithubUsername: MangoTheCat
+GithubRef: master
+GithubSha1: d9000f09c24514afd1da17f5f10833f6094b393b
+
+Package: sourcetools
+Source: CRAN
+Version: 0.1.6
+Hash: 226d56d7469587da40b0f96180e711b4
+
+Package: testthat
+Source: CRAN
+Version: 1.0.2
+Hash: 88d5291104227f9dc2e7c7c1d0eb6c74
+Requires: R6, crayon, digest, magrittr, praise
+
+Package: webdriver
+Source: github
+Version: 1.0.2.9002
+Hash: 0fc511784de26345add1defa6adbbc49
+Requires: R6, base64enc, curl, debugme, httr, jsonlite, processx,
+    showimage
+GithubRepo: webdriver
+GithubUsername: rstudio
+GithubRef: master
+GithubSha1: 2ccad63abd4c839a4efed96fe753e67cbd220323
+
+Package: withr
+Source: CRAN
+Version: 2.0.0
+Hash: cc7e555b8e249aa5cf391592fcae71a2
+
+Package: xtable
+Source: CRAN
+Version: 1.8-2
+Hash: 7293235cfcc14cdff1ce7fd1a0212031
+
+Package: yaml
+Source: CRAN
+Version: 2.1.14
+Hash: c81230c3a7d9ba20607ad6b4331173d1
