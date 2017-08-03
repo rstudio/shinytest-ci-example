@@ -1,7 +1,7 @@
 dist: trusty   # Use Ubuntu 14.04 image (instead of 12.04)
 language: r
 sudo: false
-r: release     # Use current release version of R (like 3.4.1)
+r: 3.4.1
 
 # Install packrat if needed and have it restore packages.
 install:
